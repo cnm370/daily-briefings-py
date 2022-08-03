@@ -76,6 +76,13 @@ APP_ENV="production" COUNTRY_CODE="US" ZIP_CODE="20057" python -m app.daily_brie
 
 ## Testing
 
+## Web App
+To run web app:
+
+export FLASK_APP=web_app
+flask run
+
+
 Running tests:
 
 ```sh
